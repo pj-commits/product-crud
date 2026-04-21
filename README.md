@@ -3,16 +3,15 @@ A simple product CRUD app built with Spring Boot and vanilla HTML/Bootstrap. Thi
 
 ## Setup requirements:
 * Java 17+
-* Maven 3.x
+* Maven/Springboot 3.x
 * MySQL 8.x
 * VS Code with Live Server for FE
 
 ## Backend Setup
 
 1. Clone the project and open it in IntelliJ IDEA.
-2. Create a MySQL database:
-3. sql   CREATE DATABASE db_productcrud;
-4. Update `src/main/resources/application.properties` with your MySQL credentials:
+2. Create a MySQL database: `CREATE DATABASE db_productcrud;`
+3. Update `src/main/resources/application.properties` with your MySQL credentials:
 ```
 properties   spring.datasource.url=jdbc:mysql://localhost:3306/db_productcrud
    spring.datasource.username=root
@@ -70,4 +69,4 @@ Status is automatically determined based on pieces
 ```
 status (LOW STOCK / NOT AVAILABLE / number of pieces)
 ```
-* I also added some Seeded data so when the app runs, there are already items on the table but the data can go through the API. Those data are just for presentation and can be deleted in `DataSeeder` if needed or if we wanted to add more data.
+* I also added some Seeded data so when the app runs, there are already items on the table but the data can go through the API. Those data are just for presentation and can be deleted in `DataSeeder` if needed or if we wanted to add more data.`
