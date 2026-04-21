@@ -66,7 +66,8 @@ Status is automatically determined based on pieces — no manual input needed.
 
 ### Note
 
-For the requirements in Product Column, I intentionally separate a `pieces` column from `status` to keep it more simple and consistent. The status is determined by the pieces count and is a string while the pieces is number.
+* For the requirements in Product Column, I intentionally separate a `pieces` column from `status` to keep it more simple and consistent. The status is determined by the pieces count and is a string while the pieces is number.
 ```
 status (LOW STOCK / NOT AVAILABLE / number of pieces)
 ```
+* I also added some Seeded data so when the app runs, there are already items on the table but the data can go through the API. Those data are just for presentation and can be deleted in `DataSeeder` if needed.
