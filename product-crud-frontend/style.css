@@ -1,0 +1,4 @@
+body { background: #f8f9fa; }
+.badge-AVAILABLE { background-color: #198754; }
+.badge-LOW_STOCK { background-color: #ffc107; color: #000; }
+.badge-NOT_AVAILABLE { background-color: #dc3545; }
