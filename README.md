@@ -63,3 +63,10 @@ Status is automatically determined based on pieces — no manual input needed.
 | 0 or null | NOT AVAILABLE |
 | 1 - 10 | LOW STOCK |
 | 11+ | AVAILABLE |
+
+### Note
+
+For the requirements in Product Column, I intentionally separate a `pieces` column from `status` to keep it more simple and consistent. The status is determined by the pieces count and is a string while the pieces is number.
+```
+status (LOW STOCK / NOT AVAILABLE / number of pieces)
+```
