@@ -56,7 +56,7 @@ properties   spring.datasource.url=jdbc:mysql://localhost:3306/db_productcrud
 
 ## Status Logic
 
-Status is automatically determined based on pieces — no manual input needed.
+Status is automatically determined based on pieces
 
 | Pieces | Status |
 |--------|--------|
@@ -70,4 +70,4 @@ Status is automatically determined based on pieces — no manual input needed.
 ```
 status (LOW STOCK / NOT AVAILABLE / number of pieces)
 ```
-* I also added some Seeded data so when the app runs, there are already items on the table but the data can go through the API. Those data are just for presentation and can be deleted in `DataSeeder` if needed.
+* I also added some Seeded data so when the app runs, there are already items on the table but the data can go through the API. Those data are just for presentation and can be deleted in `DataSeeder` if needed or if we wanted to add more data.
